@@ -214,7 +214,7 @@ I18n.translations.en = {
             "   <li>The license needs to be obtained directly from the service supplier.</li>" +
             "   <li>The license hasn't been added to <a href=\"https://www.surfmarket.nl\" target=\"_blank\" rel=\"noopener noreferrer\">SURFmarket</a>'s administration yet.</li>" +
             "</ul>" +
-            "<p>If necessary, SURFnet will contact the service supplier or <a href=\"https://www.surfmarket.nl\" target=\"_blank\" rel=\"noopener noreferrer\">SURFmarket</a> before activating the connection.</p>"
+            "<p>If necessary, SURF will contact the service supplier or <a href=\"https://www.surfmarket.nl\" target=\"_blank\" rel=\"noopener noreferrer\">SURFmarket</a> before activating the connection.</p>"
     },
 
     license_info: {
@@ -242,7 +242,7 @@ I18n.translations.en = {
         normen_kader_html: "For this service the supplier has published information stating which data they process and where they process this data. You can find this information on the <a href=\"https://support.surfconext.nl/dashboard-info-avg\" target=\"_blank\" rel=\"noopener noreferrer\">wiki</a>. During 2018 we will incorporate this information in a new version of this Dashboard.",
         no_normen_kader_html: "For this service the supplier has not yet provided AVG/GDPR information; information stating which data they process and where they process this data can be requested at the supplier.",
         single_tenant_service: "Single tenant service",
-        single_tenant_service_html: "{{name}} is a single-tenant service, which means the supplier needs to create a new instance for every customer before it is ready for use. For more information about single tenant services see the <a href=\"https://support.surfconext.nl/dashboard-info-singletenant\" target=\"_blank\" rel=\"noopener noreferrer\">SURFnet wiki</a>",
+        single_tenant_service_html: "{{name}} is a single-tenant service, which means the supplier needs to create a new instance for every customer before it is ready for use. For more information about single tenant services see the <a href=\"https://support.surfconext.nl/dashboard-info-singletenant\" target=\"_blank\" rel=\"noopener noreferrer\">SURF wiki</a>",
         interfed_source: "Federation source:",
         publish_in_edugain_date: "Published in eduGAIN on:",
         supports_ssa: "SURFsecureID enabled",
@@ -325,20 +325,20 @@ I18n.translations.en = {
         subtitle2: "The provider of the service {{name}} has supplied the following information (if any):",
         question: "Question",
         answer: "Answer",
-        accessData: "WHO CAN ACCESS THE DATA?",
-        certification: "CAN THE SUPPLIER SUPPLY A THIRD PARTY MEMORANDUM?",
-        certificationLocation: "WHERE CAN AN INSTITUTION FIND/REQUEST IT?",
-        country: "IN WHAT COUNTRY IS THE DATA STORED",
-        otherInfo: "OTHER DATA PRIVACY AND SECURITY INFORMATION",
-        privacyPolicy: "DOES THE SUPPLIER PUBLISH A PRIVACY POLICY?",
-        privacyPolicyUrl: "WHAT IS THE PRIVACY POLICY URL?",
-        securityMeasures: "WHAT SECURITY MEASURES HAS THE SUPPLIER TAKEN?",
-        snDpaWhyNot: "IF NO, WHAT ARTICLES POSE A PROBLEM & WHY?",
-        surfmarketDpaAgreement: "DID THE SUPPLIER AGREE A DPA WITH SURFMARKET?",
-        surfnetDpaAgreement: "IS THE SUPPLIER WILLING TO SIGN THE SURF MODEL DPA?",
-        whatData: "WHAT (KIND OF) DATA IS PROCESSED?",
-        certificationValidFrom: "CERTIFICATION VALID FROM",
-        certificationValidTo: "CERTIFICATION VALID TO",
+        accessData: "Who can access the data?",
+        certification: "Can the supplier supply a third party memorandum?",
+        certificationLocation: "Location of info on information security related certifications?",
+        country: "In what country is the data stored",
+        otherInfo: "Other data privacy and security information",
+        privacyPolicy: "Does the supplier publish a privacy policy?",
+        privacyPolicyUrl: "What is the privacy policy url?",
+        securityMeasures: "What security measures has the supplier taken?",
+        snDpaWhyNot: "If no, what articles pose a problem & why?",
+        surfmarketDpaAgreement: "Does supplier offer a DPA in the SURF license portal?",
+        surfnetDpaAgreement: "Is the supplier willing to sign the surf model DPA?",
+        whatData: "What (kind of) data is processed?",
+        certificationValidFrom: "Certification valid from",
+        certificationValidTo: "Certification valid to",
         noInformation: "No info supplied by provider"
     },
     consent_panel: {
@@ -403,7 +403,7 @@ I18n.translations.en = {
         done_without_interaction_subtitle: "You can make use of it now.", // TODO: check text
         forward_permission: {
             after: " to {{app}}.",
-            before: "SURFnet has permission to forward the ",
+            before: "SURF has permission to forward the ",
         },
         info_connection_without_interaction: "This service provider allows institutions to connect immediately. There is no need to wait for this connection request to be processed, you can use the service right away!",
         info_connection_share_institution: "This service provider is a service offered by your Institution and therefore the connection can be made directly: you can use the service immediately!",
@@ -423,7 +423,7 @@ I18n.translations.en = {
             before: "It is the responsibility of my institution to provide the correct ",
         },
         read: "Read the",
-        single_tenant_service_warning: "Requests for activating a single tenant services take longer to process. SURFnet will contact you to discuss the activation process after it has received your request.",
+        single_tenant_service_warning: "Requests for activating a single tenant services take longer to process. SURF will contact you to discuss the activation process after it has received your request.",
         terms_title: "By requesting an activation you accept these terms",
         wiki: "wiki for this service",
         aansluitovereenkomst_accept: "I hereby certify that I agree with connecting to a service which has not signed the 'SURFconext aansluitovereenkomst'.",
@@ -499,7 +499,7 @@ I18n.translations.en = {
     },
 
     footer: {
-        surfnet_html: "<a href=\"https://www.surfnet.nl/en\" target=\"_blank\" rel=\"noopener noreferrer\">SURFnet</a>",
+        surfnet_html: "<a href=\"https://www.surfnet.nl/en\" target=\"_blank\" rel=\"noopener noreferrer\">SURF</a>",
         terms_html: "<a href=\"https://support.surfconext.nl/terms-en\" target=\"_blank\" rel=\"noopener noreferrer\">Terms of Service</a>",
         contact_html: "<a href=\"mailto:support@surfconext.nl\">support@surfconext.nl</a>"
     },
@@ -644,7 +644,7 @@ I18n.translations.en = {
         guest_enabled_tooltip: "When enabled this means users of the Guest IdP are<br>allowed to connect to this service.<br>See the <a href=\"https://edu.nl/46yyn\" target=\"_blank\" rel=\"noopener noreferrer\">wiki</a> for more information.",
         edit_message: "You are able to edit the following fields.",
         save: "Create change request",
-        change_request_created: "Change request sent to the SURFnet SURFconext-team. The ticket number of the change request is {{jiraKey}}",
+        change_request_created: "Change request sent to the SURF SURFconext-team. The ticket number of the change request is {{jiraKey}}",
         no_change_request_created: "No change request is created as you did not change anything.",
         change_request_failed: "Failed to create your change request.",
         comments: "Comments"
@@ -1000,7 +1000,7 @@ I18n.translations.en = {
             },
             "Shib-voName": {
                 name: "Virtual Organisation Name",
-                description: "The name of the Virtual Urganisation for which you have authenticated"
+                description: "The name of the Virtual Organisation for which you have authenticated"
             },
             "Shib-user": {
                 name: "Identifier",
